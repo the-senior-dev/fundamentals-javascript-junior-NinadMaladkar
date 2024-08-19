@@ -5,7 +5,8 @@
  * @returns {boolean} - True if the variable is null and typeof returns 'object'.
  */
 function isNullObject(variable) {
-    // Your code here
+    if (variable === null && typeof variable === 'object') return true
+    else return false;
   }
   
   module.exports = isNullObject;
