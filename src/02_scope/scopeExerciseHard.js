@@ -2,8 +2,8 @@
 function mainFunction() {
     let x = 10;
   
+    let y = 5;
     function firstFunction() {
-      let y = 5;
       if (true) {
         let z = 2;
         return y * z;
